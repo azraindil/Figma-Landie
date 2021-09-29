@@ -1,0 +1,281 @@
+@import "reset.css";
+@import "variables.css";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/bg/home.svg);
+    background-repeat: no-repeat;
+    background-position: right -4px;
+    background-size: 890px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 77.64%;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--darkest-blue);
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    color: var(--paragraph-light);
+    margin-bottom: 30px;
+}
+
+.btn {
+    border: 0;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+}
+
+.btn__dark {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.btn__light {
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--darkest-blue);
+    border: solid 2px var(--darkest-blue);
+    box-sizing: border-box;
+}
+
+.btn__menu__mobile {
+    border: 0;
+    background: none;
+}
+
+.btn__menu__mobile img {
+    width: 40px;
+}
+
+nav .container {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container .btn {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: var(--yellow);
+    color: var(--darkest-blue);
+}
+
+section .container .btn {
+    height: 36px;
+    width: 190px;
+}
+
+.nav__links,
+.footer__links {
+    display: none;
+}
+
+.footer__icons {
+    display: flex;
+    width: 22.06%;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 18.81%;
+}
+
+.nav__links a {
+    color: var(--light-blue);
+    text-decoration: none;
+}
+
+.home {
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.home h1,
+.home p {
+    font-weight: 500;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home p {
+    color: var(--light-blue);
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.home h1 {
+    color: var(--darkest-blue);
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 1px;
+}
+
+.home .btn:last-of-type {
+    margin-left: 20px;
+}
+
+.about .container {
+    height: 742px;
+    background-image: url(../img/bg/mobile_login.svg);
+    background-repeat: no-repeat;
+    background-position: right 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about h1,
+.about p {
+    font-weight: 400;
+}
+
+.about__list {
+    display: flex;
+    width: 50%;
+}
+
+.about__list h2 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    color: var(--darkest-blue);
+    padding: 10px 0 10px 0;
+}
+
+.about__list p {
+    width: 90%;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--grey);
+}
+
+.about__list div:first-of-type {
+    margin-right: 20px;
+}
+
+.products h1,
+.products p {
+    width: 39.8%;
+    font-weight: 400;
+}
+
+.happy_news,
+.social__influencer,
+.contact {
+    height: 569px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: left 77px;
+}
+
+.happy_news {
+    background-image: url(../img/bg/happy_news.svg);
+}
+
+.social__influencer {
+    background-image: url(../img/bg/social_influencer.svg);
+}
+
+.contact {
+    background-image: url(../img/bg/contact.svg);
+}
+
+.pricing {
+    height: 804px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url(../img/bg/pricing.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing h1 {
+    padding-top: 237px;
+}
+
+.pricing button {
+    margin-bottom: 172px;
+}
+
+.pricing label {
+    color: var(--grey);
+    display: block;
+    margin-bottom: 9px;
+}
+
+.bold {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    color: var(--dark-blue);
+}
+
+footer {
+    background-color: var(--footer-bg);
+    background-image: url(../img/bg/Rectangle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer .container {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+footer .btn {
+    display: none;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer .logo {
+    margin: 0 auto;
+}
+
+.footer__low,
+.footer__high {
+    display: flex;
+    justify-content: space-between;
+}

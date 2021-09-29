@@ -1,0 +1,60 @@
+.container {
+    width: 720px;
+}
+
+nav .container .btn {
+    position: static;
+    margin-left: 24.65%;
+    width: 160px;
+    height: 26px;
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.nav__links,
+.footer__links {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .btn {
+    display: initial;
+    height: 26px;
+    width: 109px;
+}
+
+.btn__menu__mobile {
+    display: none;
+}
+
+.home {
+    padding-top: 379px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    width: 48.6%;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 69px;
+}
+
+.home h1 {
+    color: var(--darkest-blue);
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+}
+
+.home p {
+    color: var(--light-blue);
+    font-size: 18px;
+    line-height: 30px;
+}

@@ -1,0 +1,23 @@
+.container {
+    width: 1120px;
+}
+
+
+/* 
+nav .container .btn {
+    position: static;
+    margin-left: 24.65%;
+    width: 160px;
+    height: 26px;
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.nav__links,
+.footer__links {
+    display: flex;
+}
+
+footer .btn {
+    display: initial;
+} */
